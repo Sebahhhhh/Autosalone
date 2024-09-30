@@ -1,10 +1,12 @@
 package Auto;
 
+
 public class Auto {
     private String marcaAuto;
     private String modelloAuto;
     private double prezzoAuto;
 
+    // marca
     public String getMarca() {
         return marcaAuto;
     }
@@ -12,7 +14,7 @@ public class Auto {
         marcaAuto = marca;
     }
 
-     //
+     // modello
     public String getModello() {
         return modelloAuto;
     }
@@ -20,14 +22,16 @@ public class Auto {
         modelloAuto = modello;
     }
 
-    //
-    public String getPrezzo() {
-        return modelloAuto;
+    // prezzo
+    public double getPrezzo() {
+        return prezzoAuto;
     }
     public void setPrezzo(double prezzo) {
         prezzoAuto = prezzo;
     }
 
+
+    // inizializzazione
     public Auto(){
         marcaAuto = "";
         modelloAuto = "";
